@@ -24,7 +24,9 @@ This project models a relational database system for a dog adoption center. It w
 - `dog_listing`, `dog_breed`, `dog_image`
 - Relationship tables: `dog_breed_x_dog`, `dog_image_x_dog`
 
-## 📊 Visuals
+## 📊 ER Diagram
+
+![ER Diagram](erd_diagram.png)
 
 ![image](https://github.com/user-attachments/assets/e5f2dc5c-e4c0-4614-88aa-049d9fd3a04b)
 
