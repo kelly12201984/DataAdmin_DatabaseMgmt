@@ -28,9 +28,6 @@ This project models a relational database system for a dog adoption center. It w
 
 ![ER Diagram](erd_diagram.png)
 
-![image](https://github.com/user-attachments/assets/e5f2dc5c-e4c0-4614-88aa-049d9fd3a04b)
-
-
 ## 💾 SQL Script
 
 Full implementation:
