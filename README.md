@@ -1,82 +1,50 @@
-# DataAdmin_DatabaseMgmt
-Database Management Project
-# 🐾 Dog Adoption: Database Project
+# 🐾 Save A Dog: SQL Database Project
 
-This project was developed as part of the **IST-659: Data Administration Concepts and Database Management** course in the M.S. in Applied Data Science program at Syracuse University. It aims to streamline the dog adoption process through a fully structured relational database.
+This project models a relational database system for a dog adoption center. It was developed in **IST-659: Data Administration Concepts and Database Management** as part of the M.S. in Applied Data Science program at Syracuse University. The database is designed to support efficient dog-to-adopter matching, centralized data storage, and accurate record keeping.
 
-## 📌 Project Overview
+## 📌 Project Highlights
 
-The **Save A Dog** project models a centralized database system for a dog adoption center. The database supports:
-- Tracking of dogs and their medical/vaccination histories
-- Adopter records and application management
-- Dog listings including adoption costs and dates
-- Dog breeds, images, and matching support
+- **Built from scratch** using SQL: table creation, foreign keys, inserts, data validation
+- **Normalized structure** with support for many-to-many relationships
+- **Entity-relationship and logical data modeling**
+- **Business-focused requirements** including adoption status tracking, vaccination records, and breed metadata
+- **SQL queries** for analysis and validation
 
-This system ensures accurate data tracking, reduces adoption processing time, and helps staff match dogs with potential adopters more efficiently.
+## 🧠 Skills Demonstrated
 
-## 🧠 Key Features
+- SQL (DDL & DML)
+- Relational database design
+- Normalization and referential integrity
+- ERD and schema documentation
+- Practical application of data privacy and system design concepts
 
-- **Entity-Relationship Model** and **Logical Schema**
-- Full SQL implementation: table creation, insert scripts, constraints
-- Includes normalized many-to-many and one-to-many relationships
-- Demonstrates use of identity fields, foreign key constraints, and indexing
-- Addresses real-world business needs (data privacy, process optimization)
+## 📂 Key Tables
 
-## 📂 Database Structure
+- `dog`, `adopter`, `applications`, `vaccination_record`
+- `dog_listing`, `dog_breed`, `dog_image`
+- Relationship tables: `dog_breed_x_dog`, `dog_image_x_dog`
 
-### Main Tables:
-- `adopter`
-- `dog`
-- `dog_listing`
-- `vaccination_record`
-- `application`
-- `dog_breed`
-- `dog_image`
+## 📊 Visuals
 
-### Relationship Tables:
-- `dog_breed_x_dog`
-- `dog_image_x_dog`
+![image](https://github.com/user-attachments/assets/e5f2dc5c-e4c0-4614-88aa-049d9fd3a04b)
 
-### Relationships:
-- A dog can have multiple breeds and images
-- A dog can have multiple adoption applications
-- Each adopter can apply for multiple dogs
-
-## 📊 ERD & Schema
-
-See `ERD_Diagram_Conceptual.png` and `Schema_Diagram_Logical.png` for visual overviews of the data models.
 
 ## 💾 SQL Script
 
-The full SQL implementation is available in the file:
-- [`Team 3 - Final Project SQL Script.sql`](Team%203%20-%20Final%20Project%20SQL%20Script.sql)
+Full implementation:
+[`Team 3 - Final Project SQL Script.sql`](Team%203%20-%20Final%20Project%20SQL%20Script.sql)
 
-Includes:
-- `CREATE DATABASE`
-- `CREATE TABLE` with constraints
-- `INSERT INTO` with sample data
-- Data validation queries
+## 🔐 Design Considerations
 
-## 🔐 Considerations
+- Designed with **data accuracy, privacy, and system performance** in mind
+- Risk planning included for third-party integration and legal compliance
 
-- Emphasis on **data accuracy**, **security**, and **legal compliance**
-- Anticipates issues like real-time dog availability, application integrity, and potential human error
-- Designed for scalability and integration with front-end platforms
+## 👥 Project Context
 
-## 👥 Team Members
-
-- Kelly Arseneau  
-- Adrian Alexander  
-- Samantha Greenberg  
-- Momisola Odeyemi  
-- Gloria Wu
-
-## 🐶 Future Improvements
-
-- Add support for adopter lifestyle & housing filters (e.g., fenced yard, allergies)
-- Integrate training history and behavioral assessments
-- Enable tracking of adoption event participation and donations
+Developed as a group project. My key contributions included:
+- Data modeling
+- SQL table creation and data validation
+- Drafting documentation and business logic
 
 ---
-
 
