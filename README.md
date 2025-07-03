@@ -1,4 +1,4 @@
-# 🐾 When SQL Met Shelter Dogs: SQL Database Project
+# 🐾 SQL Database Project
 
 This project models a relational database system for a dog adoption center. It was developed in **IST-659: Data Administration Concepts and Database Management** as part of the M.S. in Applied Data Science program at Syracuse University. The database is designed to support efficient dog-to-adopter matching, centralized data storage, and accurate record keeping.
 
