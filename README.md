@@ -1,6 +1,6 @@
 # 🐾 SQL Database Project
 
-This project models a relational database system for a dog adoption center. It was developed in **IST-659: Data Administration Concepts and Database Management** as part of the M.S. in Applied Data Science program at Syracuse University. The database is designed to support efficient dog-to-adopter matching, centralized data storage, and accurate record keeping.
+A fully normalized relational database designed to support efficient dog-to-adopter matching, centralized operations, and actionable reporting. This solo project spans schema architecture, data modeling, and BI integration using SQL Server and Tableau.
 
 ## 📌 Project Highlights
 
@@ -31,7 +31,7 @@ This project models a relational database system for a dog adoption center. It w
 ## 💾 SQL Script
 
 Full implementation:
-[`Team 3 - Final Project SQL Script.sql`](Team%203%20-%20Final%20Project%20SQL%20Script.sql)
+[`SQL_DB_Script.sql`](SQL_DB_Script.sql)
 
 ## 🔐 Design Considerations
 
