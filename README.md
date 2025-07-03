@@ -38,12 +38,6 @@ Full implementation:
 - Designed with **data accuracy, privacy, and system performance** in mind
 - Risk planning included for third-party integration and legal compliance
 
-## 👥 Project Context
-
-Developed as a group project. My key contributions included:
-- Data modeling
-- SQL table creation and data validation
-- Drafting documentation and business logic
 
 ---
 
